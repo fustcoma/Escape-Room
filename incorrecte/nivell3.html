@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+<meta charset="UTF-8">
+<title>Nivell 3</title>
+
+<style>
+
+body{
+    background:#111;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+#imatge{
+    position:relative;
+    display:inline-block;
+    margin-top:40px;
+}
+
+/* Zona de la pista */
+#pista{
+    position:absolute;
+
+    top:70px;
+    left:50px;
+
+    width:80px;
+    height:80px;
+
+    cursor:pointer;
+}
+
+/* Zona de la contrasenya */
+#contrasenya{
+    position:absolute;
+
+    bottom:60px;
+    right:70px;
+
+    width:90px;
+    height:90px;
+
+    cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>NIVELL 3</h1>
+
+<p>Troba la pista i descobreix la contrasenya.</p>
+
+<div id="imatge">
+
+    <img src="image.png"
+     width="500"
+     height="450"
+     style="object-fit: cover; object-position: top;">
+
+    <div id="pista"></div>
+    <div id="contrasenya"></div>
+</div>
+
+<script>
+
+document.getElementById("pista").onclick = function(){
+
+    alert("Pista: La imatge.");
+
+};
+
+document.getElementById("contrasenya").onclick = function(){
+
+    let usuari = prompt("Usuari:");
+    let pass = prompt("Contrasenya:");
+
+    // Canvia aquestes dades
+    if (usuari === "codelearn" && pass === "premia") {
+
+        alert("Correcte!");
+        window.location.href = "../poker.html";
+
+    } else {
+
+        alert("Usuari o contrasenya incorrectes");
+
+    }
+
+};
+
+</script>
+
+</body>
+</html>

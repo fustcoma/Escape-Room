@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+<meta charset="UTF-8">
+<title>Nivell 2</title>
+
+<style>
+
+body{
+    background:#111;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+
+#imatge{
+    position:relative;
+    display:inline-block;
+}
+
+
+
+/* Zona secreta */
+
+#zona{
+    position:absolute;
+
+    top:50px;
+    right:300px;
+
+    width:120px;
+    height:120px;
+    cursor:pointer;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>NIVELL 2</h1>
+
+<p>Troba el secret...</p>
+
+
+<div id="imatge">
+
+    <img src="imatge.png" width="400" height="400">
+
+
+    <div id="zona"></div>
+
+
+</div>
+
+
+
+
+<script>
+document.getElementById("zona").onclick = function () {
+
+    let usuari = prompt("Usuari:");
+    let pass = prompt("Contrasenya:");
+
+    // Canvia aquestes dades
+    if (usuari === "dih" && pass === "dac") {
+
+        alert("Correcte!");
+        window.location.href = "../incorrecte/nivell3.html";
+
+    } else {
+
+        alert("Usuari o contrasenya incorrectes");
+
+    }
+
+};
+</script>
+
+
+</body>
+
+</html>

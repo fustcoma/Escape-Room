@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<title>Victòria!</title>
+
+<style>
+
+body{
+    margin:0;
+    background:linear-gradient(135deg, #0f172a, #111);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    overflow:hidden;
+}
+
+.container{
+    text-align:center;
+    background:rgba(20,20,20,0.9);
+    border:3px solid gold;
+    border-radius:20px;
+    padding:50px;
+    width:700px;
+    max-width:90%;
+    box-shadow:0 0 30px rgba(255,215,0,0.4);
+}
+
+h1{
+    font-size:70px;
+    color:gold;
+    margin:0;
+    animation:brillar 1.5s infinite alternate;
+}
+
+h2{
+    margin-top:20px;
+    font-size:30px;
+    color:#00bfff;
+}
+
+p{
+    font-size:22px;
+    line-height:1.7;
+    margin-top:30px;
+}
+
+button{
+    margin-top:40px;
+    padding:15px 40px;
+    font-size:22px;
+    border:none;
+    border-radius:12px;
+    background:#00bfff;
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#0099cc;
+    transform:scale(1.08);
+}
+
+.confeti{
+    position:fixed;
+    top:-20px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    animation:caure linear infinite;
+}
+
+@keyframes caure{
+    from{
+        transform:translateY(-20px) rotate(0deg);
+    }
+    to{
+        transform:translateY(110vh) rotate(720deg);
+    }
+}
+
+@keyframes brillar{
+    from{
+        text-shadow:0 0 10px gold;
+    }
+    to{
+        text-shadow:0 0 35px gold;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏆 VICTÒRIA! 🏆</h1>
+
+    <h2>Has completat l'Escape Room!</h2>
+
+    <p>
+        Enhorabona!<br><br>
+        Has superat tots els nivells i resolt tots els enigmes.<br>
+        Esperem que t'ho hagis passat bé!
+    </p>
+
+    <button onclick="window.location.href='index.html'">
+        Tornar al menú
+    </button>
+
+</div>
+
+<script>
+
+const colors = [
+    "#ff4d4d",
+    "#00bfff",
+    "#00ff99",
+    "#ffff00",
+    "#ff00ff",
+    "#ffffff",
+    "#ffa500"
+];
+
+for(let i = 0; i < 120; i++){
+
+    let c = document.createElement("div");
+    c.className = "confeti";
+
+    c.style.left = Math.random()*100 + "vw";
+    c.style.background = colors[Math.floor(Math.random()*colors.length)];
+    c.style.animationDuration = (3 + Math.random()*4) + "s";
+    c.style.animationDelay = (Math.random()*5) + "s";
+
+    document.body.appendChild(c);
+}
+
+</script>
+
+</body>
+</html>

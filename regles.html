@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<title>Regles i pistes</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:700px;
+    max-width:90%;
+    background:#1b1b1b;
+    border:2px solid #00bfff;
+    border-radius:15px;
+    padding:35px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+h1{
+    font-size:48px;
+    margin-top:0;
+    margin-bottom:30px;
+}
+
+h2{
+    color:#00bfff;
+    margin-top:35px;
+    margin-bottom:15px;
+}
+
+.regles{
+    text-align:left;
+    font-size:20px;
+    line-height:1.8;
+    padding-left:30px;
+}
+
+.regles li{
+    margin-bottom:12px;
+}
+
+.pistes{
+    text-align:left;
+    font-size:20px;
+    line-height:1.8;
+    background:#252525;
+    border:1px solid #00bfff;
+    border-radius:10px;
+    padding:20px;
+}
+
+.pistes p{
+    margin:10px 0;
+}
+
+button{
+    display:block;
+    margin:40px auto 0;
+    padding:15px 35px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    background:#00bfff;
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#0099cc;
+    transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📜 Regles i pistes</h1>
+
+    <h2>Regles</h2>
+
+    <ul class="regles">
+        <li>No es permet inspeccionar la pàgina ni mirar el codi font.</li>
+        <li>Cada nivell té una única solució correcta.</li>
+        <li>Algunes pistes estan amagades a simple vista.</li>
+        <li>Si et quedes encallat, consulta les pistes abans de rendir-te.</li>
+        <li>Fixa't en tots els detalls de les imatges.</li>
+    </ul>
+
+    <h2>Pistes</h2>
+
+    <div class="pistes">
+        <p><b>Nivell 1:</b> Clau: 18</p>
+        <p><b>Nivell 2:</b> Fixa't bé.</p>
+        <p><b>Nivell 3:</b> I si potser té text?</p>
+        <p><b>Nivell 4:</b> Fantasma.</p>
+    </div>
+
+    <button onclick="window.location.href='index.html'">
+        Tornar al menú
+    </button>
+
+</div>
+
+</body>
+</html>
