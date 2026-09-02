@@ -58,6 +58,10 @@ python qrgenerator.py
 
 > ℹ️ És possible que necessitis instal·lar les dependències de Python corresponents.
 
+## 📜 Llicència
+
+Aquest projecte està publicat sota la **llicència MIT**.
+
 ## 👨‍💻 Autor
 
 Creat per **fustcoma**.
