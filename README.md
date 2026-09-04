@@ -1,20 +1,22 @@
-# 🗝️ Escape Room
+# Escape Room
 
 > Un escape room virtual creat amb HTML, CSS, JavaScript i Python, amb diferents proves i reptes que hauràs de superar per aconseguir escapar.
 
-## 🎮 Sobre el projecte
+## Sobre el projecte
 
 **Escape Room** és un joc web interactiu basat en el concepte dels escape rooms tradicionals.
 
 L'objectiu és anar superant les diferents proves i reptes del joc fins arribar al final. Cada decisió i cada prova et pot apropar més a la sortida... o fer-te tornar a començar. 👀
 
-## 🌐 Juga ara
+## Juga ara
 
-🎮 **[Jugar a l'Escape Room](https://fustcoma.github.io/Escape-Room/)**
+**[Jugar a l'Escape Room](https://fustcoma.github.io/Escape-Room/)**
+
+> **No miris el codi si vols jugar sense spoilers.**
 
 No cal instal·lar res. Simplement entra a la web i comença a jugar.
 
-## ✨ Característiques
+## Característiques
 
 * 🧩 Diferents proves i minijocs.
 * 📜 Pàgina amb les regles del joc.
@@ -24,16 +26,16 @@ No cal instal·lar res. Simplement entra a la web i comença a jugar.
 * 🌐 Funcionament directament des del navegador.
 * 📱 Compatible amb diferents dispositius.
 
-## 🛠️ Tecnologies utilitzades
+## Tecnologies utilitzades
 
 | Tecnologia   | Ús                              |
 | ------------ | ------------------------------- |
-| 🌐 HTML5     | Estructura de les pàgines       |
-| 🎨 CSS       | Disseny i estil                 |
-| ⚡ JavaScript | Interactivitat i lògica del joc |
-| 🐍 Python    | Generació de codis QR           |
+| HTML5     | Estructura de les pàgines       |
+| CSS       | Disseny i estil                 |
+| avaScript | Interactivitat i lògica del joc |
+| Python    | Generació de codis QR           |
 
-## 🧩 Proves
+## Proves
 
 El joc està dividit en diferents seccions i proves.
 
@@ -46,7 +48,7 @@ Algunes de les proves inclouen:
 
 Cada prova està pensada per formar part de l'experiència general de l'Escape Room.
 
-## 📷 Codis QR
+## Codis QR
 
 El projecte inclou un script de Python per generar codis QR que poden formar part de les proves de l'Escape Room.
 
@@ -56,21 +58,15 @@ Per executar-lo:
 python qrgenerator.py
 ```
 
-> ℹ️ És possible que necessitis instal·lar les dependències de Python corresponents.
+> És possible que necessitis instal·lar les dependències de Python corresponents.
 
-## 📜 Llicència
+## Llicència
 
 Aquest projecte està publicat sota la **llicència MIT**.
 
-## 👨‍💻 Autor
+## Autor
 
 Creat per **fustcoma**.
 
-🔗 **Repositori:** https://github.com/fustcoma/Escape-Room
 
----
-
-⭐ Si t'ha agradat el projecte, pots donar-li una estrella al repositori!
-
-> 🔒 **No miris el codi si vols jugar sense spoilers.**
 
