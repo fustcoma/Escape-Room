@@ -18,13 +18,13 @@ No cal instal·lar res. Simplement entra a la web i comença a jugar.
 
 ## Característiques
 
-* 🧩 Diferents proves i minijocs.
-* 📜 Pàgina amb les regles del joc.
-* ✅ Pantalles de resposta correcta.
-* ❌ Pantalles de resposta incorrecta.
-* 🏆 Pantalla de victòria.
-* 🌐 Funcionament directament des del navegador.
-* 📱 Compatible amb diferents dispositius.
+* Diferents proves i minijocs.
+* Pàgina amb les regles del joc.
+* Pantalles de resposta correcta.
+* Pantalles de resposta incorrecta.
+* Pantalla de victòria.
+* Funcionament directament des del navegador.
+* Compatible amb diferents dispositius.
 
 ## Tecnologies utilitzades
 
@@ -41,10 +41,10 @@ El joc està dividit en diferents seccions i proves.
 
 Algunes de les proves inclouen:
 
-* 🧠 **Reptes i enigmes**
-* 🔐 **Codis i pistes**
-* 📷 **Codis QR**
-* 🏁 **Repte final**
+* **Reptes i enigmes**
+* **Codis i pistes**
+* **Codis QR**
+* **Repte final**
 
 Cada prova està pensada per formar part de l'experiència general de l'Escape Room.
 
